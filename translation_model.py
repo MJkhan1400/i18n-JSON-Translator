@@ -25,6 +25,7 @@ LANGUAGE_CODES = {
 # Load the model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained("facebook/m2m100_1.2B")
 model = AutoModelForSeq2SeqLM.from_pretrained("facebook/m2m100_1.2B")
+print("Model and tokenizer loaded successfully.")
 
 def get_language_code(language_name):
     """
