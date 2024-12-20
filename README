@@ -106,5 +106,3 @@ If you handle sensitive data and want to ensure privacy:
    ```
 
 This ensures that no data remains on your local machine related to the translation process.
-
----
