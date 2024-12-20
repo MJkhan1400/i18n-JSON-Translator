@@ -1,6 +1,3 @@
-### `README.md`
-
-```markdown
 # i18n JSON Translator
 
 i18n JSON Translator is a powerful, developer-focused tool designed to streamline the process of localizing your website or app. It allows you to effortlessly (but not yet accurately) translate your i18n-related JSON files into any language, setting you up for globalizing your websites and apps.
@@ -14,7 +11,6 @@ This program leverages the Hugging Face `transformers` library and the `facebook
 - **JSON Text Replacement**: Replaces the original JSON's text values with their translated equivalents.
 - **Fully Localizable**: Supports offline use for privacy-conscious users.
 
----
 
 ## Recommended Setup
 I recommend using a Conda environment with Python 3.10.12 to ensure compatibility. Follow these steps to set up the environment:
@@ -106,5 +102,3 @@ If you handle sensitive data and want to ensure privacy:
    ```
 
 This ensures that no data remains on your local machine related to the translation process.
-
----
