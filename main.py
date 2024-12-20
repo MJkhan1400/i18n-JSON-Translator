@@ -7,7 +7,7 @@ def main():
     json_file = input("Enter the path to the JSON file: ")
 
     # Generate file names
-    text_output_file = "texts_for_translation.txt"
+    text_output_file = "extracted_texts.txt"
     translated_output_file = "translated_texts.txt"
 
     # Extract texts from the JSON
